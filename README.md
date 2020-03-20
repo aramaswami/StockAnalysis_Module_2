@@ -19,6 +19,8 @@ The approach I followed is comprised of three steps:
 (4) Initialize arrays: I used two types of inititalizations. (a) The first type is to provide an ordered list of contents of the tickers() array; (b) I used a 'for' loop to initialize values for the other arrays.  
 (5) Determine last row: This part determines the dimensions of the data set by determining the last row (so it does not need to be specified in the code by number).  
 (6) Populate arrays: For each array (other than tickers()), values are updated from initial based on conditions by parsing each row in the data set only once.  
-(7) Write and format results: I created a separate worksheet 'All Stocks Analysis_refactored' to write results from each applicable array. I also formatted the results conditionally as per the requirement.
+(7) Write and format results: I created a separate worksheet 'All Stocks Analysis_refactored' in the file green_stocks.xslm to write results from each applicable array. I also formatted the results conditionally as per the requirement.  
+(8) I created two buttons in the worksheet: one that clears the worksheet and a second one that runs the macro.  
+(9) I created a sheet 'All Stocks Analysis' that runs the original (not refactored macro). I retained this sheet, along with the sheet that invokes the refactored code, for reference and as a comparison of the performance difference that a user can see.  
 
 
