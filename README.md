@@ -1,4 +1,4 @@
-# StockAnalysis_Module_2
+# Challenge StockAnalysis_Module_2
 
 ## Introduction
 The code presented is to analyze stock data and summarize the performance of each stock. The data provided is daily stock price for years 2017and 2018. The user's requirement is a VBA macro, that are accessed with easy to use buttons in the worksheet, that lets them select a year and generate a table of the volume and gain/loss over the year for each stock. An additinal requirement is to format the output table with red/green colors so the user can interpret performance data quickly, at a glance.
